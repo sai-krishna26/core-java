@@ -1,0 +1,11 @@
+public class Bat{
+	public static void main(String[] args){
+		byte length; //declare
+		length=3;//assign
+		System.out.println(length);//print
+		
+		length=2;
+		System.out.println(length);
+	}
+
+}
