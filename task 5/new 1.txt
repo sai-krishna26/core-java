@@ -1,0 +1,26 @@
+1. Declare Hotel class, write methods to store and print 
+a. storeUtensils 
+b. storeStaffs 
+c. storeHotelInfo 
+d. storeMenu 
+
+2. Declare Market class, write methods to store and print 
+a. storeVegetables 
+b. storeGroceris 
+c. storeFruits 
+d. storeDryFruits 
+e. storeJunkFood 
+
+Invoke above method from a class call it as Delivery with method pickUp(); 
+
+Invoke pickUp from another class call it as Customer with method shopping(); 
+
+Invoke shopping from another class call it as Owner with method buy(); 
+
+Invoke buy() from another class call it as Person with method fun(); 
+
+Invoke fun from main() 
+
+https://www.digitalocean.com/community/tutorials/java-jvm-memory-model-memory-management-in-java#stack-memory 
+
+https://www.hdfc.com/home-loan-emi-calculator

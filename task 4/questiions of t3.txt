@@ -1,0 +1,11 @@
+1.Declare a Mobile class , declare 10 static methods . Print message inside each method. Invoke these 10 methods from main method 
+
+2.Declare a Bag class, declare 5 methods . Invoke each from another class without a main method. Invoke methods of another class from main method main()-->AnotherClass.methods()---> Bag.methods() 
+
+3.Declare a President class with methods and execute in following sequence govern()-->callState()-->rules()--> check()---> callAdmin()-->collect()--> apply()-->chain()-->citizen()-->follow() Invoke govern() method from main method of another class
+
+
+4.Demonstrate stackOverFlow 
+
+
+5. https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html
