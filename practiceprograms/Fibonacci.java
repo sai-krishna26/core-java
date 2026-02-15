@@ -20,8 +20,3 @@ public static void main(String[] x){
 	fibb();
 }
 }
-
-
-
-
-system.out.println(a+"")

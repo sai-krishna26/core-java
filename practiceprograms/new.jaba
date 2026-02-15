@@ -1,0 +1,47 @@
+1.Create a class CricketWorldCup and implement static methods: 
+
+ Create registerTeam with parameters teamName, captainName, ranking, isHost, squadSize and validate parameters and print VALID/INVALID. Invoke 3 times. 
+
+ Create saveMatch with parameters matchId, team1, team2, venue, city, date, time, overs, isDayNight, umpire1, umpire2 and validate parameters and print VALID/INVALID. Invoke 3 times. 
+ 
+ Create savePlayer with parameters playerName, teamName, jerseyNumber, role, isCaptain, isViceCaptain, matchesPlayed, runsScored, wicketsTaken, battingAverage, bowlingEconomy and validate parameters and print VALID/INVALID. Invoke 3 times. 
+ 
+ Create calculateRunRate with parameters totalRuns, oversFaced, wicketsLost, checkQualification with parameters points, netRunRate, matchesLeft, and manOfTheMatch with parameters playerName, runs, wickets and validate parameters and print VALID/INVALID. Invoke each 2 times. 
+ 
+ 
+ 
+ 
+ 2. Create a class FMRadio and implement static methods: 
+
+ Create turnOnOrOff with no parameters, toggle radio state, and print VALID/INVALID. Invoke 2 times. ? Create setFrequency with parameter frequency (float) and validate it is between 88.0 and 108.0 MHz, print VALID/INVALID. Invoke 3 times. 
+
+ Create increaseVolume with parameter increment and decreaseVolume with parameter decrement (volume 0-10), print VALID/INVALID. Invoke each 2 times. 
+
+ Create saveStation with parameter stationName (String) and validate non-empty, maintain last 5 stations in array literal, print VALID/INVALID. Invoke 3 times. 
+ 
+ 
+ 
+ 
+ 
+ 3. Create a class MathStringPrograms and implement the following static methods. Invoke each method from the main method. 
+
+ Create a static method reverseString with parameter String str to find and print the reverse of the string.
+
+ Create a static method checkPalindrome with parameter String str to check if the string is a palindrome and print Palindrome/Not Palindrome..
+
+ Create a static method fibonacciSeries with parameter int n to print first n numbers of Fibonacci series. 
+
+ Create a static method checkArmstrong with parameter int num to check if the number is an Armstrong number and print Armstrong/Not Armstrong.
+
+ Create a static method factorial with parameter int num to calculate and print factorial of the number. 
+ 
+ 
+ 
+ 
+ 4. Create a class ArrayOperations and implement the following static methods. Invoke each method from the main method. 
+
+ Create a static method findMin with parameter int[] arr to find and print the minimum value in the array. 
+
+ Create a static method findMax with parameter int[] arr to find and print the maximum value in the array.
+
+ Create a static method findAverage with parameter int[] arr to calculate and print the average of array elements.

@@ -1,0 +1,21 @@
+Write 5 methods in each class with a value returned .
+ Invoke each method in a runner 
+ Suitcase 
+ Bullet
+ Fire 
+ Water
+ Crown 
+ Towel 
+ Ladder 
+ Bench 
+ Tablet 
+ Grenade 
+ Stabilizer 
+ 
+ Write below methods in Person class, validate all the parameters 
+ 
+ 1. contactInfo method ,with name,emails,mobileNumbers,address 
+ 2. foodDish method with name, ingredents 
+ 3. laptop method with brand,model,ports,countriesOfWarranty 
+ 
+ Read about inference, System class
