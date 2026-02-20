@@ -3,7 +3,7 @@ public class Bat{
 		byte length; //declare
 		length=3;//assign
 		System.out.println("og="+length);//print
-		
+		String name="Krishna";
 		length=2;
 		System.out.println(length);
 		
