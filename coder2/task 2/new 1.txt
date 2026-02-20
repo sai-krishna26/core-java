@@ -1,0 +1,3 @@
+1. 5 switch cases --> 5 conditions --> 5 diff data type 
+2. while --> 10 times --> 5 increment --> 5 dec 
+3. do while --> 10 times --> 5 increment --> 5 dec

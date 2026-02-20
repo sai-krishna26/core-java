@@ -1,0 +1,9 @@
+Read About Byte Code Verifier 
+
+Read about JIT 
+
+https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html 
+
+Complete yesterday's validation on WaterFall,Ocean,YourClass 
+
+5 classes with over-loaded method , invoke all the overload methods in Runner
