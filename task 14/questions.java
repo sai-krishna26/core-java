@@ -1,0 +1,3 @@
+Declare 5 classes and declare 2 instance variables for each classes , Create 22 instances then acccess and print the instance variables , then re-init instance variables , then print the updated values 
+
+Declare 5 classes and declare 4 instance variables for each class , Create 5 instances then acccess and print the instance variables , then re-init instance variables , then print the updated values

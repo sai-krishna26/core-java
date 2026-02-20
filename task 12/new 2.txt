@@ -1,0 +1,6 @@
+Task 
+1 Write a class Bird, declare methods getColorByName, add least 20 condition: 10 min
+
+Method to return life span of the bird : 6 min
+
+Write a class Univercity, declare method to getCoursesByCollegeName , check all govt and private colleges in karnataka: 60 min
