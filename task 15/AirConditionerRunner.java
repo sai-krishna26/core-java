@@ -5,7 +5,7 @@ class AirConditionerRunner
 		AirConditioner airConditioner=new AirConditioner();
 		AirConditioner airConditioner1=new AirConditioner();
 		
-		System.out.println("default brand :"+airConditioner.brand);
+		/*System.out.println("default brand :"+airConditioner.brand);
 		System.out.println("default model :"+airConditioner.model);
 		System.out.println("default price :"+airConditioner.price);
 		System.out.println("default type :"+airConditioner.type);
@@ -35,7 +35,9 @@ class AirConditionerRunner
 			System.out.print(col+", ");
 		}
 		System.out.println("\ninitialized warranty :"+airConditioner.warranty);
-		System.out.println("initialized working :"+airConditioner.working);
-		
+		System.out.println("initialized working :"+airConditioner.working);*/
+	
+		System.out.println("default value:"+airConditioner.modell);
+	
 	}
 }

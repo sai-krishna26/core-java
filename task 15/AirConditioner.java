@@ -8,4 +8,5 @@ class AirConditioner
 	String[] colors;
 	int warranty;
 	boolean working;
+	char modell;
 }
