@@ -2,12 +2,12 @@ class ReversingString2
 {
 	public static void main(String[] values)
 	{
-		String array="MAMAS";
-		String rArray="";
-		for(int index=array.length()-1;index>=0;index--)
+		String word="MAMAS";
+		String reversedWord="";
+		for(int index=word.length()-1;index>=0;index--)
 		{
-			rArray=rArray+array.charAt(index);
+			reversedWord=reversedWord+word.charAt(index);
 		}
-		System.out.println(rArray);
+		System.out.println(reversedWord);
 	}
-}
+}		
