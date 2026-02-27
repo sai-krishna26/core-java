@@ -2,7 +2,7 @@ class CheckPalindrome
 {
 	public static void main(String... args)
 	{
-		int number=14321;
+		int number=12321;
 		String temp=number+"";//or  String temp=String.values(number);
 		//or String temp = Integer.toString(number);
 		String reversedNumber="";
