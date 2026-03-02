@@ -4,7 +4,7 @@ class Street
 	{
 		System.out.println("executing the getStreetName in street\n"+"name: "+name);
 		
-			if(name==null)
+		if(name==null)
 		{
 			System.out.println("Name should not be null");
 			return -1;

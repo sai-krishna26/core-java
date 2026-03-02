@@ -13,16 +13,19 @@ class Biscuit
 		
 		if(name=="mary gold")
 		{
+			System.out.println("10");
 			return 10;
 		}
 		
 		if(name=="burbon")
 		{
-			return 15;
+			System.out.println("15");
+			return 15;		
 		}
 		
 		if(name=="dark fantasy")
 		{
+			System.out.println("25");
 			return 25;
 		}
 		System.out.println("biscuit type not found");

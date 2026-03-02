@@ -12,11 +12,10 @@ class dosa1{
 }
 
 class dosa2{
-	public static void main(String args[]){
+	public static void main(String[] values){
 		System.out.println("class 1 message 3");
-	}
 }
-
+}
 class dosa3{
 	public static void main(String args[]){
 		System.out.println("class 1 message 4");

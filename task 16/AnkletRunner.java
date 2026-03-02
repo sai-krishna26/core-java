@@ -4,6 +4,7 @@ class AnkletRunner
 	{
 		Anklet anklet=new Anklet("silver");
 		anklet.material="platinium";
+		//System.out.println(anklet.material);
 		System.out.println(anklet);
 	}	
 }

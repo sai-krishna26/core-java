@@ -12,17 +12,17 @@ class Person
 		
 		for(int i=0;i<emails.length;i++)
 			
-		if(emails[i]==null && !emails[i].contains("@gmail.com"))
+		if(emails[i]==null || !emails[i].contains("@gmail.com"))
 		{
-			System.out.println("error:email should contain @gmail.com");
+			System.out.println("error:emails should contain @gmail.com");
 			return;	
 		}
 		
 		for(int i=0;i<mobileNumbers.length;i++)
-		
-		if(String.valueOf(mobileNumbers[i]).length()!=10)
+		//long num=mobileNumbers[i];
+		if(String.valueOf(mobileNumbers[i]).length()!=10 || mobileNumbers[i]/1000000000<6)
 		{
-			System.out.println("error:mobile number should contain only 10 digits with starting number >6");
+			System.out.println("error:mobile number should contain only 10 digits with starting number >=6");
 			return;
 		}
 		
