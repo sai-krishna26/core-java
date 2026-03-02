@@ -4,7 +4,7 @@ class PersonRunner
 	{
 		String name="ramkrishna";
 		String[] emails={"ramkrishna@gmail.com","krishnaram@gmail.com","rk@gmail.com"};
-		long[] mobileNumbers={9900887766L,9900884422L};
+		long[] mobileNumbers={8900887766L,9900884422L};
 		String address="ramanagar";
 		Person.contactInfo(name,emails,mobileNumbers,address);
 		

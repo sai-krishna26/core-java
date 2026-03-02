@@ -5,16 +5,16 @@ class CollegeRunner
 		float pass=College.getPassPercentageOfBrach("cse");
 		System.out.println("passing percentage: "+pass);
 		
-		boolean placement=College.getPlacements("ise");
+		boolean placement=College.getPlacements("cse");
 		System.out.println("placement in college: "+placement);
 		
-		float packagee=College.getHighestPackage("ece");
+		float packagee=College.getHighestPackage("cse");
 		System.out.println("highest package: "+packagee);
 		
-		int count=College.getFacultyCount("cv");
+		int count=College.getFacultyCount("cse");
 		System.out.println("no of faculties: "+count);
 		
-		int counts=College.getTotalStudents("mech");
+		int counts=College.getTotalStudents("cse");
 		System.out.println("no of students: "+counts);
 		
 	}

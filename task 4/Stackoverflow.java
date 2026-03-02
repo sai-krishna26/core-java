@@ -3,7 +3,4 @@ class StackOverflow{
 		System.out.println("Hii");
 		stack();
 	}
-	public static void main(String[] val){
-		stack();
-	}
 }

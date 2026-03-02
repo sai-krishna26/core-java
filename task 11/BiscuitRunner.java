@@ -7,8 +7,8 @@ class BiscuitRunner
 		String name3="dark fantasy";
 		
 		
-		double cost = Biscuit.getCost(name2);
-		System.out.println("cost:"+cost);
+		Biscuit.getCost(name2);
+		//System.out.println("cost:"+cost);
 		
 		String shape = Biscuit.getShape(name2);
 		System.out.println("shape: "+shape);

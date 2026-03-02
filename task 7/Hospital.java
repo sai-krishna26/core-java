@@ -3,7 +3,7 @@ class Hospital
 	static void bookAppointment(String patientName,String symptom)
 	{
 		
-		//tring name="Mukesh";
+		//String name="Mukesh";
 		//String symptom="Mouth cancer";
 		int bp=150;
 		boolean sugar=true;

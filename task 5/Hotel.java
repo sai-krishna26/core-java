@@ -4,7 +4,6 @@ class Hotel{
 		
 		for (String su:utensils)
 			System.out.println(su);
-		
 	}
 	
 	static void storeStaffs(){

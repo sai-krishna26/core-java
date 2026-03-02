@@ -1,6 +1,6 @@
 class Anklet
 {
-	String material="gold";
+	String material;
 	
 	Anklet(String material)
 	{

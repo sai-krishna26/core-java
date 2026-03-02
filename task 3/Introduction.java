@@ -1,6 +1,6 @@
 public class Introduction{
 	public static void main(String[] val){
-		String greeting="Hello ";
+		String greeting="Hello Good morning ";
 		String body="Myself Saikrishna Badiger ,"+
 		" currently persuing my batchlors degree "+
 		"at Adichunchanagiri Institute of Technology,"+
