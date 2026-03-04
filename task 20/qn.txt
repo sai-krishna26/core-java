@@ -1,0 +1,11 @@
+Declare below classes , then declare 15 instance methods, then declare 5 static methods, then create 2 instances of each class, invoke all the methods 
+Hamper 
+Dolphin 
+Bridge 
+Penguin 
+TennisBall 
+Mountain 
+Flag 
+Missle 
+Money 
+Resource
