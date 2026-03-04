@@ -3,7 +3,7 @@ class TennisBallRunner
 	public static void main(String... args)
 	{
 		TennisBall ball = new TennisBall();
-
+		TennisBall ball2 = new TennisBall();
 		ball.bounce();
 		ball.roll();
 		ball.hit();
