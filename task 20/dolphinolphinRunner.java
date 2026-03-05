@@ -1,4 +1,4 @@
-class dolphinolphinRunner
+class dolphinRunner
 {
 	public static void main(String... args)
 	{

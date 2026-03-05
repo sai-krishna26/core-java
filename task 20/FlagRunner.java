@@ -1,4 +1,4 @@
-lass FlagRunner
+class FlagRunner
 {
 	public static void main(String... args)
 	{
