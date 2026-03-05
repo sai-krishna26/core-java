@@ -1,0 +1,14 @@
+Declare below classes, then declare 5 primitive/String instance variables and 5 non primitive(not string) Total 66 classes and one runner Create one instance of below classes and init/instanit..te all variables using constructor.
+ 
+ Mouse
+ File 
+ Lion
+ Motor 
+ Coach 
+ Ipl 
+ Spa 
+ Tea 
+ Bell 
+ Cloud 
+ Aquarium
+   
