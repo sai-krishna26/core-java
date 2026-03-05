@@ -1,0 +1,1 @@
+class Bearing{String model;Bearing(String model){this.model=model;System.out.println("created model using Bearing");}}

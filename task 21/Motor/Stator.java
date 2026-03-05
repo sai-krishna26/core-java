@@ -1,0 +1,1 @@
+class Stator{String size;Stator(String size){this.size=size;System.out.println("created size using Stator");}}
