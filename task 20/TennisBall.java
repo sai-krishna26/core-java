@@ -1,8 +1,9 @@
 class TennisBall
 {
-	void bounce()
+	void bounce(String value)
 	{
-		System.out.println("executing bounce in TennisBall"); 
+		System.out.println("executing bounce in TennisBall");
+		System.out.println(value.length());
 	}
 
 	void roll()
