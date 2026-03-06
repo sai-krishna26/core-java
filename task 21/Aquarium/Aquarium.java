@@ -5,7 +5,6 @@ class Aquarium
 	int tanks;
 	int fishes;
 	boolean publicPlace;
-
 	Fish fish;
 	Water water;
 	Filter filter;
@@ -13,8 +12,7 @@ class Aquarium
 	Plant plant;
 	Ticket ticket;
 
-	Aquarium(String name,String location,int tanks,int fishes,boolean publicPlace,
-	Fish fish,Water water,Filter filter,Light light,Plant plant,Ticket ticket)
+	Aquarium(String name,String location,int tanks,int fishes,boolean publicPlace,Fish fish,Water water,Filter filter,Light light,Plant plant,Ticket ticket)
 	{
 		this.name=name;
 		this.location=location;
