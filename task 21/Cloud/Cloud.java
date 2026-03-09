@@ -35,6 +35,37 @@ class Cloud
 	{
 		System.out.println("provider: "+this.provider);
 		System.out.println("serviceType: "+this.serviceType);
-		System.out.println("region object: "+this.region);
+		System.out.println("servers: "+this.servers);
+		System.out.println("storage: "+this.storage);
+		System.out.println("scalable: "+this.scalable);
+		if(this.dataCenter!=null)
+		{
+			this.dataCenter.getDataCenter();
+		}
+		else
+		{
+			System.out.println("dataCenter not found");
+		}
+		if(this.region!=null)
+		{
+			this.region.getRegion();
+		}
+		if(this.service!=null)
+		{
+			this.service.getService();
+		}
+		if(this.security!=null)
+		{
+			this.security.getSecurity();
+		}
+		if(this.client!=null)
+		{
+			this.client.getClient();
+		}
+		if(this.network!=null)
+		{
+			this.network.getNetwork();
+		}
+		
 	}
 }

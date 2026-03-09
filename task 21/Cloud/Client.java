@@ -6,4 +6,8 @@ class Client
 		this.name=name;
 		System.out.println("created name using Client");
 	}
+	void getClient()
+	{
+		System.out.println("client name: "+this.name);
+	}
 }

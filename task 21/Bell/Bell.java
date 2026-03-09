@@ -35,6 +35,33 @@ class Bell
 	{
 		System.out.println("shape: "+this.shape);
 		System.out.println("color: "+this.color);
-		System.out.println("metal object: "+this.metal);
+		System.out.println("weight: "+this.weight);
+		System.out.println("size: "+this.size);
+		System.out.println("templeUse: "+this.templeUse);
+		if(this.handle!=null)
+		{
+			this.handle.getHandle();
+		}
+		if(this.metal!=null)
+		{
+			this.metal.getMetal();
+		}
+		if(this.striker!=null)
+		{
+			this.striker.getStriker();
+		}
+		if(this.stand!=null)
+		{
+			this.stand.getStand();
+		}
+		if(this.sound!=null)
+		{
+			this.sound.getSound();
+		}
+		if(this.temple!=null)
+		{
+			this.temple.getTemple();
+		}
 	}
+	
 }

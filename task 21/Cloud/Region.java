@@ -6,4 +6,8 @@ class Region
 		this.name=name;
 		System.out.println("created name using Region");
 	}
+	void getRegion()
+	{
+		System.out.println("Region name: "+this.name);
+	}
 }

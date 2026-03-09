@@ -6,4 +6,8 @@ class Type
 		this.typee=typee;
 		System.out.println("created a typee using Type");
 	}
+	void getType()
+	{
+		System.out.println("Coach type:"+this.typee);
+	}
 }

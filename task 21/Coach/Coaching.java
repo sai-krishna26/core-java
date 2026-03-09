@@ -7,4 +7,8 @@ class Coaching
 		this.classTime=classTime;
 		System.out.println("created a classTime using Coaching");
 	}
+	void getCoaching()
+	{
+		System.out.println("Coaching classTime :"+this.classTime);
+	}
 }

@@ -10,7 +10,7 @@ class CloudRunner
 		Network network=new Network("5G");
 
 		Cloud cloud=new Cloud("AWS","IaaS",100,500,true,
-		dataCenter,region,service,security,client,network);
+		null,region,service,security,client,network);
 
 		cloud.getCloud();
 	}

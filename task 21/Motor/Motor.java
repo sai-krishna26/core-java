@@ -34,7 +34,37 @@ class Motor
 	void getMotor()
 	{
 		System.out.println("brand: "+this.brand);
+		System.out.println("power: "+this.power);
 		System.out.println("type: "+this.type);
-		System.out.println("rotor object: "+this.rotor);
+		System.out.println("speed: "+this.speed);
+		System.out.println("electric: "+this.electric);
+		if(this.rotor!=null)
+		{
+			this.rotor.getRotor();
+		}
+		else
+		{
+			System.out.println("rotor not found");
+		}
+		if(this.coil!=null)
+		{
+			this.coil.getCoil();
+		}
+		if(this.stator!=null)
+		{
+			this.stator.getStator();
+		}
+		if(this.bearing!=null)
+		{
+			this.bearing.getBearing();
+		}
+		if(this.fan!=null)
+		{
+			this.fan.getFan();
+		}
+		if(this.wire!=null)
+		{
+			this.wire.getWire();
+		}
 	}
 }

@@ -7,4 +7,8 @@ class Nation
 		this.nationality=nationality;
 		System.out.println("created a nationality using a Nation");
 	}
+	void getNation()
+	{
+		System.out.println("Coach nationality:"+this.nationality);
+	}
 }

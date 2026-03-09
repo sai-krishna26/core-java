@@ -6,4 +6,8 @@ class Battery
 		this.capacity=capacity;
 		System.out.println("created capacity using Battery");
 	}
+	void getBattery()
+	{
+		System.out.println("Battery capacity: "+this.capacity);
+	}
 }

@@ -6,4 +6,8 @@ class Kettle
 		this.brand=brand;
 		System.out.println("created brand using Kettle");
 	}
+	void getKettle()
+	{
+		System.out.println("Kettle brand: "+this.brand);
+	}
 }

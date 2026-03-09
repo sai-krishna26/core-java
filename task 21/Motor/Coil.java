@@ -1,1 +1,13 @@
-class Coil{String type;Coil(String type){this.type=type;System.out.println("created type using Coil");}}
+class Coil
+{
+	String type;
+	Coil(String type)
+	{
+		this.type=type;
+		System.out.println("created type using Coil");
+	}
+	void getCoil()
+	{
+		System.out.println("coil type: "+this.type);
+	}
+}

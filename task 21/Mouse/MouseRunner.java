@@ -10,7 +10,7 @@ class MouseRunner
 		Light light=new Light("RGB");
 		
 		Mouse mouse=new Mouse("Logitech","Black",1600,5,true,
-		button,sensor,battery,scrollWheel,usbReceiver,light);
+		null,sensor,battery,scrollWheel,usbReceiver,light);
 		
 		mouse.getMouse();
 	}

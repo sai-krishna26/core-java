@@ -7,7 +7,7 @@ class CoachRunner
 		Coaching coaching=new Coaching("morning");
 		WorldCup worldCup=new WorldCup(3);
 		
-		Coach coach=new Coach("Ravi shastry","India",50,10,"Cricket",nation,type,coaching,worldCup);
+		Coach coach=new Coach("Ravi shastry","India",50,10,"Cricket",null,type,coaching,worldCup);
 		coach.getCoach();
 
 	}

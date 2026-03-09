@@ -33,6 +33,32 @@ class Aquarium
 	{
 		System.out.println("name: "+this.name);
 		System.out.println("location: "+this.location);
-		System.out.println("fish object: "+this.fish);
+		System.out.println("tanks: "+this.tanks);
+		System.out.println("fishes: "+this.fishes);
+		System.out.println("publicPlace: "+this.publicPlace);
+		if(this.fish!=null)
+		{
+			this.fish.getFish();
+		}
+		if(this.filter!=null)
+		{
+			this.filter.getFilter();
+		}
+		if(this.water!=null)
+		{
+			this.water.getWater();
+		}
+		if(this.light!=null)
+		{
+			this.light.getLight();
+		}
+		if(this.plant!=null)
+		{
+			this.plant.getPlant();
+		}
+		if(this.ticket!=null)
+		{
+			this.ticket.getTicket();
+		}	
 	}
 }

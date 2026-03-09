@@ -35,6 +35,33 @@ class Tea
 	{
 		System.out.println("brand: "+this.brand);
 		System.out.println("flavor: "+this.flavor);
-		System.out.println("cup object: "+this.cup);
+		System.out.println("quantity: "+this.quantity);
+		System.out.println("price: "+this.price);
+		System.out.println("hot: "+this.hot);
+		
+		if(this.leaf!=null)
+		{
+			this.leaf.getLeaf();
+		}
+		if(this.milk!=null)
+		{
+			this.milk.getMilk();
+		}
+		if(this.sugar!=null)
+		{
+			this.sugar.getSugar();
+		}
+		if(this.cup!=null)
+		{
+			this.cup.getCup();
+		}
+		if(this.kettle!=null)
+		{
+			this.kettle.getKettle();
+		}
+		if(this.shop!=null)
+		{
+			this.shop.getShop();
+		}
 	}
 }

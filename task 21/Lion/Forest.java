@@ -6,4 +6,8 @@ class Forest
 		this.name=name;
 		System.out.println("created name using Forest");
 	}
+	void getForest()
+	{
+		System.out.println("Forest name: "+this.name);
+	}
 }

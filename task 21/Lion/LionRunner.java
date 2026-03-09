@@ -9,7 +9,8 @@ class LionRunner
 		Pride pride=new Pride(10);
 		Forest forest=new Forest("Gir");
 
-		Lion lion=new Lion("Simba","Golden",6,190,true,habitat,diet,tail,claw,pride,forest);
+		Lion lion=new Lion("Simba","Golden",6,190,true,null,diet,tail,claw,pride,forest);
+		System.out.println("----------------------------------------------");
 		lion.getLion();
 	}
 }

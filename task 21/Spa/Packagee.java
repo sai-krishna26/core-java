@@ -6,4 +6,8 @@ class Packagee
 		this.name=name;
 		System.out.println("created name using Packagee");
 	}
+	void getPackagee()
+	{
+		System.out.println("Packagee name: "+this.name);
+	}
 }

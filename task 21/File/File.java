@@ -33,8 +33,39 @@ class File
 
 	void getFile()
 	{
+		System.out.println("--------------------------------------------------");
 		System.out.println("fileName: "+this.fileName);
 		System.out.println("format: "+this.format);
-		System.out.println("owner object: "+this.owner);
+		System.out.println("size: "+this.size);
+		System.out.println("pages: "+this.pages);
+		System.out.println("editable: "+this.editable);
+		if(this.folder!=null)
+		{
+			this.folder.getFolder();
+		}
+		else
+		{
+			System.out.println("folder not found");
+		}
+		if(this.owner!=null)
+		{
+			this.owner.getOwner();
+		}
+		if(this.permission!=null)
+		{
+			this.permission.getPermission();
+		}
+		if(this.version!=null)
+		{
+			this.version.getVersion();
+		}
+		if(this.storage!=null)
+		{
+			this.storage.getStorage();
+		}
+		if(this.backup!=null)
+		{
+			this.backup.getBackup();
+		}
 	}
 }

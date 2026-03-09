@@ -6,4 +6,8 @@ class Light
 		this.color=color;
 		System.out.println("created color using Light");
 	}
+	void getLight()
+	{
+		System.out.println("Light color: "+this.color);
+	}
 }

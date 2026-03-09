@@ -6,4 +6,8 @@ class Permission
 		this.type=type;
 		System.out.println("created type using Permission");
 	}
+	void getPermission()
+	{
+		System.out.println("Permission type: "+this.type);
+	}
 }

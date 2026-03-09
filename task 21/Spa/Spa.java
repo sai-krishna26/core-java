@@ -35,6 +35,33 @@ class Spa
 	{
 		System.out.println("name: "+this.name);
 		System.out.println("location: "+this.location);
-		System.out.println("therapy object: "+this.therapy);
+		System.out.println("rooms: "+this.rooms);
+		System.out.println("staff: "+this.staff);
+		System.out.println("luxury: "+this.luxury);
+		
+		if(this.therapy!=null)
+		{
+			this.therapy.getTherapy();
+		}
+		if(this.massage!=null)
+		{
+			this.massage.getMassage();
+		}
+		if(this.aroma!=null)
+		{
+			this.aroma.getAroma();
+		}
+		if(this.customer!=null)
+		{
+			this.customer.getCustomer();
+		}
+		if(this.packagee!=null)
+		{
+			this.packagee.getPackagee();
+		}
+		if(this.manager!=null)
+		{
+			this.manager.getManager();
+		}
 	}
 }

@@ -6,4 +6,8 @@ class Water
 		this.quality=quality;
 		System.out.println("created quality using Water");
 	}
+	void getWater()
+	{
+		System.out.println("water quality:" + this.quality);
+	}
 }

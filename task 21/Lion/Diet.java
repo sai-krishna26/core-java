@@ -6,4 +6,8 @@ class Diet
 		this.food=food;
 		System.out.println("created food using Diet");
 	}
+	void getDiet()
+	{
+		System.out.println("Deit food: "+this.food);
+	}
 }

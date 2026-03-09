@@ -6,4 +6,8 @@ class Milk
 		this.type=type;
 		System.out.println("created type using Milk");
 	}
+	void getMilk()
+	{
+		System.out.println("Milk type: "+this.type);
+	}
 }

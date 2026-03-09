@@ -9,7 +9,7 @@ class FileRunner
 		Storage storage=new Storage("LocalDisk");
 		Backup backup=new Backup("Enabled");
 
-		File file=new File("Report","PDF",20,10,true,folder,owner,permission,version,storage,backup);
+		File file=new File("Report","PDF",20,10,true,null,owner,permission,version,storage,backup);
 		file.getFile();
 	}
 }

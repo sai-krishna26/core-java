@@ -6,4 +6,8 @@ class Shop
 		this.name=name;
 		System.out.println("created name using Shop");
 	}
+	void getShop()
+	{
+		System.out.println("Shop name: "+this.name);
+	}
 }

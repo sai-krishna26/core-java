@@ -9,7 +9,8 @@ class MotorRunner
 		Fan fan=new Fan(4);
 		Wire wire=new Wire("High");
 
-		Motor motor=new Motor("ABB","AC",500,3000,true,coil,rotor,stator,bearing,fan,wire);
+		Motor motor=new Motor("ABB","AC",500,3000,true,coil,null,stator,bearing,fan,wire);
+		System.out.println("--------------------------------------------------------------");
 		motor.getMotor();
 	}
 }
