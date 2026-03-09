@@ -1,0 +1,4 @@
+enum HorlicksType
+{
+	CLASSIC, CHOCOLATE, JUNIOR, WOMENS;
+}

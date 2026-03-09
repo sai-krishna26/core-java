@@ -1,0 +1,4 @@
+enum PaneerType
+{
+	FULLCREAM, LOWFAT, ORGANIC, MALAI;
+}

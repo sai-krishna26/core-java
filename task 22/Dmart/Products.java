@@ -1,0 +1,4 @@
+enum Products
+{
+	STATIONARY, GROSSORY, CLOTHS, SNACKS;
+}
