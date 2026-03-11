@@ -1,4 +1,0 @@
-enum WalnutType
-{
-	CALIFORNIA, KASHMIRI, ORGANIC, PREMIUM;
-}
