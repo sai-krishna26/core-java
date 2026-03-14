@@ -1,0 +1,4 @@
+enum ProductConstant
+{
+	ELECTRONICS, GROSORIES, CLOTHS, FOOTWEAR;
+}
