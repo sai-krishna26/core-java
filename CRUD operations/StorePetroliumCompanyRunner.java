@@ -11,5 +11,6 @@ class StorePetroliumCompanyRunner
 		storePetroliumCompany.getCompanyName("Hindusthan petrolium");
 		storePetroliumCompany.getCompanyName(null);
 		storePetroliumCompany.getCompanyName("nayara");
+		storePetroliumCompany.getCompanyName("nayara");
 	}
 }
