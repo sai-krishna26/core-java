@@ -24,6 +24,7 @@ class Cap
 	
 	void printDetails()
 	{
+		System.out.println("---------------------------------------------");
 		System.out.println("Executing printDetails in Cap");
 		System.out.println("brand: "+this.brand);
 		System.out.println("color: "+this.color);

@@ -1,0 +1,4 @@
+enum Type
+{
+	FLIP,QWERTY,SENSOR,SMARTPHONE;
+}
