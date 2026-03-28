@@ -332,5 +332,15 @@ class ProductStoreRunner
 		productstore.searchByUniqeIdAndNameAndOriginCountry(2022001,"realme 10 pro","china");
 		
 		productstore.getAllOriginCountry();
+		
+		productstore.checkWarrantyExpiredByUniqueId(2022135);
+		
+		productstore.displayAllProducts();
+		
+		productstore.getAllByType(Type.FLIP);
+		productstore.getAllByType(Type.SMARTPHONE);
+	
+		productstore.getAllByWarrantyYears(WarrantyYears.ONE);
+		productstore.getAllByWarrantyYears(WarrantyYears.TWO);
 	}
 }
