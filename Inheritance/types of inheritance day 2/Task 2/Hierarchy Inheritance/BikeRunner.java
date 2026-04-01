@@ -1,4 +1,4 @@
-class BikeRunner
+class j
 {
 	public static void main(String... values)
 	{
