@@ -9,11 +9,11 @@ class computerRunner
 		//ChromeBrowser browserr=new MobileChromeBrowser();
 		//browserr.fastOpen();
 		 
-		//MobileChromeBrowser mobileChormeBrowser=new MobileChromeBrowser();
-		//mobileChormeBrowser.offline();
+		MobileChromeBrowser mobileChormeBrowser=new MobileChromeBrowser();
+		mobileChormeBrowser.offline();
 		
-		//Browser browser2=new ChromeBrowser();
-		//computer.install(browser2);
+		Browser browser2=new ChromeBrowser();
+		computer.install(browser2);
 		
 		Browser browser3=new MobileChromeBrow();
 		computer.install(browser3);
