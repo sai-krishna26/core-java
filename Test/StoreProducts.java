@@ -11,14 +11,14 @@ class StoreProducts
 	void getProduct(KlipCart product)
 	{
 		System.out.println("----------------------------------------");
-		System.out.println("executing getProduct to store product");
+		System.out.println("executing getProduct to store product in StoreProducts");
 		int size=this.products.length;
 		if(product!=null && this.products!=null)
 		{
 			if(this.currIndex<size)
 			{
 				this.products[currIndex]=product;
-				System.out.println("product is stored in index:"+currIndex);
+				System.out.println("product "+products[currIndex].productName+" is stored in index:"+currIndex);
 				this.currIndex++;
 			}
 			else
@@ -35,7 +35,7 @@ class StoreProducts
 	void displayProducts()
 	{
 		System.out.println("----------------------------------------");
-		System.out.println("executing displayProducts");
+		System.out.println("executing displayProducts in StoreProducts");
 
 		if(this.products != null)
 		{
@@ -57,7 +57,7 @@ class StoreProducts
 	{
 		int size=this.products.length;
 		System.out.println("----------------------------------------");
-		System.out.println("executing getProductByProductId");
+		System.out.println("executing getProductByProductId in StoreProducts");
 		if(this.products!=null)
 		{
 			boolean found=false;
@@ -72,10 +72,11 @@ class StoreProducts
 						klip.showProducts();
 						break;
 					}
-					if(!found)					{
-						System.out.println("product id not found!");
-					}
 				}
+			}
+			if(!found)					
+			{
+				System.out.println("product id not found!");
 			}
 		}
 		else
@@ -88,25 +89,27 @@ class StoreProducts
 	{
 		int size=this.products.length;
 		System.out.println("----------------------------------------");
-		System.out.println("executing getProductPriceByProductName");
+		System.out.println("executing getProductPriceByProductName in StoreProducts");
 		if(this.products!=null && name!=null)
 		{
+			boolean found=false;
 			for(KlipCart klip:products)
 			{
 				if(klip!=null)
 				{
 					if(name.equals(klip.productName))
 					{
-						System.out.println("product name: "+name+" found! at index"+klip.productId);
+						found=true;
+						System.out.println("product name: "+name+" found! at productId: "+klip.productId);
 						System.out.println("product price:"+klip.price);
 						break;
 					}
 				}
-				else					
-				{
-					System.out.println("product name not found!");
-				}
 			}	
+			if(!found)					
+			{
+				System.out.println("product name not found!");
+			}
 		}
 		else
 		{
@@ -118,24 +121,26 @@ class StoreProducts
 	{
 		int size=this.products.length;
 		System.out.println("----------------------------------------");
-		System.out.println("executing getProductNameByCompanyName");
+		System.out.println("executing getProductNameByCompanyName in StoreProducts");
 		if(this.products!=null && cname!=null)
 		{
+			boolean found=false;
 			for(KlipCart klip:products)
 			{
 				if(klip!=null)
 				{
 					if(cname.equals(klip.company))
 					{
+						found=true;
 						System.out.println("product name: "+klip.productName+" found! at company "+klip.company);
 						break;
 					}
 				}
-				else					
-				{
-					System.out.println("company name not found!");
-				}
-			}	
+			}
+			if(!found)		
+			{
+				System.out.println("company name not found!");
+			}
 		}
 		else
 		{
@@ -147,24 +152,26 @@ class StoreProducts
 	{
 		int size=this.products.length;
 		System.out.println("----------------------------------------");
-		System.out.println("executing getProductNameByCompanyName");
+		System.out.println("executing in getCompanyByproductName StoreProducts ");
 		if(this.products!=null && pname!=null)
 		{
+			boolean found=false;
 			for(KlipCart klip:products)
 			{
 				if(klip!=null)
 				{
 					if(pname.equals(klip.productName))
 					{
-						System.out.println("product name: "+klip.company+" found! at company "+klip.productName);
+						found=true;
+						System.out.println("Company: "+klip.company+" found! at product name: "+klip.productName);
 						break;
 					}
 				}
-				else					
-				{
-					System.out.println("company name not found!");
-				}
 			}	
+			if(!found)					
+			{
+				System.out.println("product name not found!");
+			}
 		}
 		else
 		{
@@ -176,25 +183,27 @@ class StoreProducts
 	{
 		int size=this.products.length;
 		System.out.println("----------------------------------------");
-		System.out.println("executing getMnfAndExpDateByproductName");
+		System.out.println("executing getMnfAndExpDateByproductName in StoreProducts");
 		if(this.products!=null && pname!=null)
 		{
+			boolean found=false;
 			for(KlipCart klip:products)
 			{
 				if(klip!=null)
 				{
 					if(pname.equals(klip.productName))
 					{
+						found=true;
 						System.out.println("Manufacturing date:"+klip.manufactureDate);
 						System.out.println("exp date:"+klip.expDate+" of product:"+klip.productName);
 						break;
 					}
 				}
-				else					
-				{
-					System.out.println("product name not found!");
-				}
-			}	
+			}
+			if(!found)				
+			{
+				System.out.println("product name not found!");
+			}
 		}
 		else
 		{
@@ -206,24 +215,26 @@ class StoreProducts
 	{
 		int size=this.products.length;
 		System.out.println("----------------------------------------");
-		System.out.println("executing getMnfAndExpDateByproductName");
+		System.out.println("executing getProductNameByType in StoreProducts");
 		if(this.products!=null && typee!=null)
 		{
+			boolean found=false;
 			for(KlipCart klip:products)
 			{
 				if(klip!=null)
 				{
 					if(typee==klip.type)
 					{
+						found=true;
 						System.out.println("product:"+klip.productName+" of Type:"+klip.type);
 						break;
 					}
 				}
-				else					
-				{
-					System.out.println("Type not found!");
-				}
-			}	
+			}
+			if(!found)					
+			{
+				System.out.println("Type not found!");
+			}
 		}
 		else
 		{
@@ -235,55 +246,28 @@ class StoreProducts
 	{
 		int size=this.products.length;
 		System.out.println("----------------------------------------");
-		System.out.println("executing deleteProduct");
+		System.out.println("executing deleteProduct to delete in StoreProducts");
 		if(this.products!=null && productName!=null)
 		{
-			for(int i=1;i<products.length;i++)
+			boolean found=false;
+			for(int i=0;i<products.length;i++)
 			{
 				if(products[i]!=null)
 				{
-					if(productName==products[i].productName)
+					if(productName.equals(products[i].productName))
 					{
+						found=true;
 						products[i]=null;
 						System.out.println("product name "+productName+" is deleted");
 						displayProducts();
 						break;
 					}
 				}
-				else					
-				{
-					System.out.println("productName not found!");
-				}
 			}	
-		}
-		else
-		{
-			System.out.println("products array and productName should not be null!!");
-		}
-	}
-	
-	void getMnfDateAndExpDateByProductName(String productName)
-	{
-		int size=this.products.length;
-		System.out.println("----------------------------------------");
-		System.out.println("executing getMnfAndExpDateByproductName");
-		if(this.products!=null && productName!=null)
-		{
-			for(KlipCart klip:products)
+			if(!found)					
 			{
-				if(klip!=null)
-				{
-					if(productName==klip.productName)
-					{
-						System.out.println("product:"+klip.productName+" has a manufacture Date:"+klip.manufactureDate+" and exp date:"+klip.expDate);
-						break;
-					}
-				}
-				else					
-				{
-					System.out.println("productName not found!");
-				}
-			}	
+				System.out.println("productName not found!");
+			}
 		}
 		else
 		{
@@ -295,15 +279,17 @@ class StoreProducts
 	{
 		int size=this.products.length;
 		System.out.println("----------------------------------------");
-		System.out.println("executing UpdateMnfDateAndExpDateByProductName");
+		System.out.println("executing UpdateMnfDateAndExpDateByProductName in StoreProducts");
 		if(this.products!=null && productName!=null && newMnfDate!=null && newExpDate!=null)
 		{
+			boolean found=false;
 			for(KlipCart klip:products)
 			{
 				if(klip!=null)
 				{
-					if(productName==klip.productName)
+					if(productName.equals(klip.productName))
 					{
+						found=true;
 						klip.manufactureDate=newMnfDate;
 						klip.expDate=newExpDate;
 						System.out.println("product:"+klip.productName+" has a new manufacture Date:"+newMnfDate+" and new exp date:"+newExpDate);
@@ -311,11 +297,11 @@ class StoreProducts
 						break;
 					}
 				}
-				else					
-				{
-					System.out.println("productName not found!");
-				}
-			}	
+			}
+			if(!found)					
+			{
+				System.out.println("productName,newMnfDate,newExpDate not found!");
+			}
 		}
 		else
 		{
@@ -328,26 +314,28 @@ class StoreProducts
 	{
 		int size=this.products.length;
 		System.out.println("----------------------------------------");
-		System.out.println("executing UpdateProductPriceByProductName");
+		System.out.println("executing UpdateProductPriceByProductName in StoreProducts");
 		if(this.products!=null && productName!=null)
 		{
+			boolean found=false;
 			for(KlipCart klip:products)
 			{
 				if(klip!=null)
 				{
-					if(productName==klip.productName)
+					if(productName.equals(klip.productName))
 					{
+						found=true;
 						klip.price=newPrice;
 						System.out.println("product:"+klip.productName+" has a new price:"+newPrice);
 						displayProducts();
 						break;
 					}
 				}
-				else					
-				{
-					System.out.println("productName not found!");
-				}
-			}	
+			}
+			if(!found)					
+			{
+				System.out.println("productName not found!");
+			}
 		}
 		else
 		{
