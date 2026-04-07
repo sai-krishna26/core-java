@@ -1,5 +1,5 @@
 10 things 
-Cylinder, Pasta, Petroleum, Singer, Tree, Mirror,Steel,Kettle,Turbine,Magnet,PowerHouse,Scooter Create below classes to save 
+Cylinder, Pasta, Petroleum, Singer, Tree, Mirror,Steel,Kettle,Turbine,Magnet,PowerHouse,Scooterr Create below classes to save
 1. Petroleum Company names, i.e 5
 2. Singer names , i.e 20 
 3. TwoWheeler model names i.e., 50 
