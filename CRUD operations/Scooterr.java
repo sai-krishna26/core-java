@@ -1,9 +1,9 @@
-class Scooter
+class Scooterr
 {
 	String[] scooterNames;
 	int index=0;
 	
-	Scooter(String[] scooterNames)
+	Scooterr(String[] scooterNames)
 	{
 		this.scooterNames=scooterNames;
 	}
