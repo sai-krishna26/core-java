@@ -1,10 +1,11 @@
+package PerfectCrudPrograms;
 class KettleRunner
 {
 	public static void main(String...names)
 	{
 		System.out.println("-------------------------------SAVING METHOD-----------------------------");
 		String[] kettleNames=new String[8];
-		Kettle kettle=new Kettle(kettleNames);
+		Ketle kettle=new Ketle(kettleNames);
 		
 		kettle.getKettleName(null);
 		kettle.getKettleName("Prestige");

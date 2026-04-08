@@ -4,7 +4,7 @@ class TurbineRunner
 	{
 		System.out.println("-------------------------------SAVING METHOD-----------------------------");
 		String[] turbineNames=new String[8];
-		Turbine turbine=new Turbine(turbineNames);
+		Turrbine turbine=new Turrbine(turbineNames);
 		
 		turbine.getTurbineName(null);
 		turbine.getTurbineName("Steam");

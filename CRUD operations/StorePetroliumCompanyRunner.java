@@ -1,9 +1,9 @@
-class StorePetroliumCompanyRunner
+class StorePetroliummCompanyRunner
 {
 	public static void main(String... values)
 	{
 		String[] companyName=new String[5];
-		StorePetroliumCompany storePetroliumCompany=new StorePetroliumCompany(companyName);
+		StorePetroliummCompany storePetroliumCompany=new StorePetroliummCompany(companyName);
 		
 		storePetroliumCompany.getCompanyName("Indian oil");
 		storePetroliumCompany.getCompanyName("Bharath petrolium");

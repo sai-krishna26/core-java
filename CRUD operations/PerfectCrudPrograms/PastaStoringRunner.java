@@ -1,10 +1,11 @@
+package PerfectCrudPrograms;
 class PastaStoringRunner
 {
 	public static void main(String...values)
 	{
 		System.out.println("-------------------------------SAVING METHOD-----------------------------");
 		String[] flavours=new String[8];
-		PastaStoring pastaStoring =new PastaStoring(flavours);
+		PastaStoringg pastaStoring =new PastaStoringg(flavours);
 		
 		pastaStoring.getPastaFlavours("mionise");
 		pastaStoring.getPastaFlavours("green souse");

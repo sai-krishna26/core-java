@@ -1,9 +1,9 @@
-class StoreSingerName
+class StoreSingerNamee
 {
 	String[] names;
 	int index=0;
 	 
-	StoreSingerName(String[] names)
+	StoreSingerNamee(String[] names)
 	{
 		this.names=names;
 	}

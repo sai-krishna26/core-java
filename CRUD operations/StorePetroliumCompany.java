@@ -1,9 +1,9 @@
-class StorePetroliumCompany
+class StorePetroliummCompany
 {
 	String[] companyName;
 	int index=0;
 	
-	StorePetroliumCompany(String[] companyName)
+	StorePetroliummCompany(String[] companyName)
 	{
 		this.companyName=companyName;
 	}

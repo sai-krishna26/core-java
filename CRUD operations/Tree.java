@@ -1,9 +1,9 @@
-class Tree
+class Treee
 {
 	String[] treeNames;
 	int index=0;
 	
-	Tree(String[] treeNames)
+	Treee(String[] treeNames)
 	{
 		this.treeNames=treeNames;
 	}

@@ -1,9 +1,9 @@
-class Turbine
+class Turrbine
 {
 	String[] turbineNames;
 	int index=0;
 	
-	Turbine(String[] turbineNames)
+	Turrbine(String[] turbineNames)
 	{
 		this.turbineNames=turbineNames;
 	}

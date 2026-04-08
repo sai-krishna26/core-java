@@ -4,7 +4,7 @@ class ScooterRunner
 	{
 		System.out.println("-------------------------------SAVING METHOD-----------------------------");
 		String[] scooterNames=new String[8];
-		Scooter scooter=new Scooter(scooterNames);
+		Scooterr scooter=new Scooterr(scooterNames);
 		
 		scooter.getScooterName(null);
 		scooter.getScooterName("Activa");
