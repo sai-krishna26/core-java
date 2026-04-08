@@ -1,9 +1,9 @@
-class Kettle
+class Ketle
 {
 	String[] kettleNames;
 	int index=0;
 	
-	Kettle(String[] kettleNames)
+	Ketle(String[] kettleNames)
 	{
 		this.kettleNames=kettleNames;
 	}

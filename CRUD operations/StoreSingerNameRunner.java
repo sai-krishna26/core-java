@@ -1,9 +1,9 @@
-class StoreSingerNameRunner
+class StoreSingerNameeRunner
 {
 	public static void main(String[] values)
 	{
 		String[] names=new String[20];
-		StoreSingerName storeSingerName=new StoreSingerName(names);
+		StoreSingerNamee storeSingerName=new StoreSingerNamee(names);
 		
 		storeSingerName.getSingerName("SPB");
 		storeSingerName.getSingerName("AR rahman");

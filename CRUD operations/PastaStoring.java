@@ -1,9 +1,9 @@
-class PastaStoring
+class PastaStoringg
 {
 	String[] flavours;
 	int index=0;
 	
-	PastaStoring(String[] flavours)
+	PastaStoringg(String[] flavours)
 	{
 		this.flavours=flavours;
 		this.index=index;

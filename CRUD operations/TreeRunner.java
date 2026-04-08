@@ -4,7 +4,7 @@ class TreeRunner
 	{
 		System.out.println("-------------------------------SAVING METHOD-----------------------------");
 		String[] treeNames=new String[8];
-		Tree tree=new Tree(treeNames);
+		Treee tree=new Treee(treeNames);
 		
 		tree.getTreeName(null);
 		tree.getTreeName("Neem");
