@@ -17,7 +17,7 @@ public class Address {
         return "Address{" +
                 "number=" + number +
                 ", pinCode=" + pinCode +
-                ", state=" + state +
+                ", state= " + state +
                 '}';
     }
 }
