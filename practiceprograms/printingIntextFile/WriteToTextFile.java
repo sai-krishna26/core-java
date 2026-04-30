@@ -9,3 +9,4 @@ public static void main(String[] args) throws IOException
     Files.write(Paths.get("C:/coder/core-java/output.txt"), "Hello Java 7".getBytes());
 }
 }
+
