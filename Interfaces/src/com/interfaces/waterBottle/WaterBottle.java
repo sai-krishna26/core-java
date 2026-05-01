@@ -1,4 +1,4 @@
-package com.interfaces.WaterBottle;
+package com.interfaces.waterBottle;
 
 public class WaterBottle implements StoreWater{
     @Override

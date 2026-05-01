@@ -1,4 +1,4 @@
-package com.interfaces.Aircooler;
+package com.interfaces.aircooler;
 
 public interface Rotation{
     int ROTATESPEED=2;

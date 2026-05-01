@@ -1,4 +1,4 @@
-package com.interfaces.Aircooler;
+package com.interfaces.aircooler;
 
 public class Runner {
     public static void main(String[] args) {

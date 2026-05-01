@@ -1,4 +1,4 @@
-package com.interfaces.WaterBottle;
+package com.interfaces.waterBottle;
 
 public class Runner {
     public static void main(String[] args) {

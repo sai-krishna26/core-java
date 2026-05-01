@@ -1,4 +1,4 @@
-package com.interfaces.WaterBottle;
+package com.interfaces.waterBottle;
 
 public interface StoreWater {
     double capacity=2;

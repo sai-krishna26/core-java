@@ -1,6 +1,4 @@
-package com.interfaces.Aircooler;
-
-import com.sun.scenario.effect.impl.sw.java.JSWBlend_SRC_INPeer;
+package com.interfaces.aircooler;
 
 public class Aircooler implements Rotation{
     @Override
