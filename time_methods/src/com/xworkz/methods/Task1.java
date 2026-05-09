@@ -28,6 +28,6 @@ public class Task1 {
         //creates custom date and time(exam schedule)
         LocalDateTime local5=LocalDateTime.of(2004,2,26,9,5);
         System.out.println("result of LocalDateTime.of(2004,2,26,9,5):"+local5);
-        
+
     }
 }
