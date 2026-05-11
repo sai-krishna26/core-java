@@ -3,6 +3,8 @@
           System.out.println(x > 0 ? "Pos" : x < 0 ? "Neg" :                                                                                          "Zero");
       }
       public static void main(String[] args) {
-          check(-3);
+              check(0);
+              check(3);
+
       }
  }
