@@ -1,4 +1,4 @@
-package com.xworkz.looseCoupling.runner;
+package com.xworkz.looseCoupling.looseCouplingRunner;
 
 import com.xworkz.looseCoupling.keyboard.HpKeyBoard;
 import com.xworkz.looseCoupling.keyboard.KeyBoard;

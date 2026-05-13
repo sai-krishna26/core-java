@@ -1,9 +1,7 @@
-package com.xworkz.looseCoupling.runner;
+package com.xworkz.looseCoupling.looseCouplingRunner;
 
-import com.xworkz.looseCoupling.SuperMarket.SuperMarket;
 import com.xworkz.looseCoupling.operatingSystem.LinuxOperatingSystem;
 import com.xworkz.looseCoupling.operatingSystem.OperatingSystem;
-import com.xworkz.looseCoupling.operatingSystem.WindowsOperatingSystem;
 import com.xworkz.looseCoupling.usage.Dell;
 
 public class OperatingSystemRunner {
