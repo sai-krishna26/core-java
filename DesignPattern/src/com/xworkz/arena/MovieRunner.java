@@ -7,5 +7,7 @@ public class MovieRunner
     public static void main(String... values) {
         MovieDto movieDto = new MovieDto("SVP", 25, true);
         System.out.println(movieDto.getMovieName());
+        System.out.println(movieDto.getMovieNo());
+        System.out.println(movieDto.isResult());
     }
 }
