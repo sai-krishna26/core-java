@@ -4,11 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="152a1964-598f-4264-a8a2-468c926ec290" name="Changes" comment="used optional type" />
+    <list default="true" id="152a1964-598f-4264-a8a2-468c926ec290" name="Changes" comment="used optional type">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xworkz/anonymous/Time.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xworkz/runner/TimeRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/src.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Optional.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Optional.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xworkz/runner/DetailsOptionalRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/runner/DetailsOptionalRunner.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="12" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -51,27 +63,30 @@
   "keyToString": {
     "Application.DetailsOptionalRunner.executor": "Run",
     "Application.DetailsRunner.executor": "Run",
+    "Application.TimeRunner.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/coder/core-java/Optional",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.23925781",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DetailsOptionalRunner">
-    <configuration name="DetailsOptionalRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.TimeRunner">
+    <configuration name="DetailsOptionalRunner" type="Application" factoryName="Application" temporary="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.xworkz.runner.DetailsOptionalRunner" />
+      <module name="Optional" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.xworkz.runner.*" />
@@ -95,8 +110,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TimeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xworkz.runner.TimeRunner" />
+      <module name="Optional" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xworkz.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TimeRunner" />
         <item itemvalue="Application.DetailsOptionalRunner" />
         <item itemvalue="Application.DetailsRunner" />
       </list>

@@ -8,7 +8,7 @@ public class DetailsOptionalRunner {
     public static void main(String... args) {
 
         DetailsOptional detailsOptional = new DetailsOptional();
-        Optional<Long> number = detailsOptional.getMobileNo("bhanu");
+        Optional<Long> number = detailsOptional.getMobileNo("uday");
 
         if (number.isPresent())
         {
@@ -16,7 +16,7 @@ public class DetailsOptionalRunner {
         }
         else
         {
-            System.err.println("number should not be null");
+            System.err.println("name not found");
         }
     }
 }
