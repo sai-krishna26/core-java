@@ -3,7 +3,7 @@ class arrayCopy
     public static void main(String[] args) 
     {
 
-    String[] names={"John","Smith","Adam","eveee"};
+    String[] names={"John","Smithhh","Adam","eveee"};
     String[] selectedNames=new String[names.length];
 
         //public static void arraycopy(Object src, int srcPos, Object dest, int destPos, int length)
