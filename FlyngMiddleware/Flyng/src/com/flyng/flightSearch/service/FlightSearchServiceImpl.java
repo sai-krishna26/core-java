@@ -14,11 +14,12 @@ public class FlightSearchServiceImpl implements FlightSearchService{
     @Override
     public boolean validateAndSearch(FlightSearchDto flightSearchDto)
     {
-        System.out.println("validating..!");
+        System.out.println("validating flight data..!");
         if(Objects.nonNull(flightSearchDao))
         {
             System.out.println("validation completed!");
             return this.flightSearchDao.searchFlight(flightSearchDto);
+
         }
         System.err.println("FlightSearchDto should not be null");
         return false;

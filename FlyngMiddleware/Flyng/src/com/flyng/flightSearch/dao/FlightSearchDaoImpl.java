@@ -10,7 +10,7 @@ public class FlightSearchDaoImpl implements FlightSearchDao{
         System.out.println("searching flight");
         if(Objects.nonNull(flightSearchDto))
         {
-            System.out.println("flight found!");
+            System.out.println("flight data saved! and flight found!!");
             return true;
         }
         return false;
