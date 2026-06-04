@@ -5,7 +5,7 @@ class Fibonacci{
 		int a=0;
 		int b=1;
 		int n=100;
-		
+		System.out.println("updated series:")
 		System.out.println(a+" "+b+" ");
 		for(int i=3;i<=n;i++){
 		int c=a+b;
